@@ -1,0 +1,43 @@
+# Lab 05 - Clicking a Button
+## Practical Evidence
+
+### Task 1 - HTML Button
+- Created sample.html.
+- Added button with ID: sampleButton.
+- Verified locator occurrence count: 2.
+
+### Task 2 - Selenium Button Click
+Command:
+python click_test.py
+
+Verified output:
+Title: Sample Button Page
+Button text: Click Me!
+Button tag: button
+PASS: Button clicked and result verified.
+Exit code: 0
+
+### Task 3 - Button Navigation
+Command:
+python nav_test.py
+
+Verified output:
+URL: file:///home/ubuntu/button-lab/next.html
+PASS: Button navigation verified.
+Exit code: 0
+
+### Python Syntax Verification
+Command:
+python -m py_compile click_test.py nav_test.py
+
+Result:
+Python syntax check exit code: 0
+
+### Final Practical Status
+- HTML button created successfully.
+- Selenium button click verified.
+- Dynamic page content verified.
+- Navigation verified.
+- Python syntax verified.
+
+All practical tests passed.
