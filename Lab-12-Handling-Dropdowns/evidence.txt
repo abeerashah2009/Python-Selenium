@@ -1,0 +1,49 @@
+LAB 12 - HANDLING DROPDOWNS
+===========================
+
+1. PRACTICAL DETAILS
+
+Lab: Handling Dropdowns
+Python: 3.12.3
+Selenium: 4.25.0
+Browser: Google Chrome 158
+
+2. DROPDOWN DETAILS
+
+HTML file: dropdown.html
+Dropdown ID: dropdown-example
+Total options: 3
+
+Available options:
+Option 1 - Value 1
+Option 2 - Value 2
+Option 3 - Value 3
+
+3. SELENIUM EXECUTION
+
+Python file: dropdown.py
+
+Selection method 1:
+select_by_visible_text("Option 2")
+
+Selection method 2:
+select_by_value("3")
+
+4. VERIFIED OUTPUT
+
+After text select: Option 2
+Selected option: Option 3
+
+5. VALIDATION RESULTS
+
+Python syntax compilation: PASSED
+Dropdown options count: 3
+Selection by visible text: PASSED
+Selection by value: PASSED
+Browser cleanup: PASSED
+Chrome processes remaining: None
+
+6. RESULT
+
+The dropdown handling practical was executed successfully.
+Both selection methods were verified.
