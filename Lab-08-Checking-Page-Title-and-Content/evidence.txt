@@ -1,0 +1,28 @@
+Lab 08: Checking Page Title & Content
+
+Environment:
+- Ubuntu 24.04
+- Python 3.12
+- Selenium 4.25.0
+- Mozilla Firefox 160.0.1
+
+Verification:
+1. Local HTTP server started successfully.
+2. HTML page title verified using curl.
+3. Selenium opened the local page in headless Firefox.
+4. Page title assertion passed.
+5. Downloads link text assertion passed.
+6. Negative assertion test raised the expected AssertionError.
+7. Python compilation check passed.
+
+Successful Selenium output:
+Page Title: Welcome to Al-Nafi Lab
+Link Text: Downloads
+
+Negative test:
+AssertionError: Title mismatch! Expected: Wrong Title, but got: Welcome to Al-Nafi Lab
+
+Python compilation:
+python3 -m py_compile title_check.py title_fail.py
+
+Result: Both Python files compiled successfully.
