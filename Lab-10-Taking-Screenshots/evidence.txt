@@ -1,0 +1,43 @@
+# Lab 10 - Taking Screenshots with Selenium
+
+## 1. Environment
+- Operating System: Ubuntu 24.04
+- Python: 3.12
+- Selenium: 4.25.0
+- Browser: Google Chrome 158.0.8127.88
+
+## 2. Website Navigation
+Test URL: http://localhost:8000/
+
+Verified output:
+```text
+Title/URL: Screenshot Lab http://localhost:8000/
+```
+
+## 3. Screenshot Capture
+Verified output:
+```text
+Screenshot saved: True
+```
+
+## 4. Screenshot Files
+- screenshot.png
+- screenshot_20261124-133340.png
+- screenshot_20261124-133344.png
+
+## 5. Screenshot Verification
+All three screenshots verified using the Linux file command.
+
+- Format: PNG
+- Resolution: 1280 x 657
+- Color: RGB
+- Original screenshot size: 8.7 KB
+- Timestamped screenshot sizes: 8.7 KB each
+
+## 6. Cleanup Verification
+- Port 8000 stopped.
+- No Chrome processes running.
+- Chrome installer removed.
+
+## 7. Final Result
+Selenium successfully captured and saved three webpage screenshots.

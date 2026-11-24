@@ -1,0 +1,19 @@
+Lab 10 - Taking Screenshots
+
+1. driver.get()
+   Opens the requested webpage.
+
+2. driver.save_screenshot()
+   Captures the current browser screen and saves it as a PNG image.
+
+3. time.strftime()
+   Generates a timestamp for unique screenshot filenames.
+
+4. driver.quit()
+   Closes the browser session.
+
+5. file screenshot.png
+   Checks the screenshot format and dimensions.
+
+6. Headless Chrome
+   Runs Chrome without displaying a graphical browser window.
