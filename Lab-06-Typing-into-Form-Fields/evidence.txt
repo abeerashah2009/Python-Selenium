@@ -1,0 +1,22 @@
+Lab 06 - Typing into Form Fields (send_keys)
+
+Practical Files:
+1. form.html
+2. fill_form.py
+
+Verification:
+1. HTML form created with username and password input fields.
+2. Selenium script imports webdriver, By, and Chrome Options.
+3. Username field located using By.ID.
+4. Password field located using By.ID.
+5. send_keys() used to enter text into both fields.
+6. Assertions added to verify the entered values.
+7. Python syntax compilation completed successfully.
+8. Browser cleanup handled using driver.quit().
+
+Python Syntax Check:
+Command: python -m py_compile fill_form.py
+Result: Exit code 0
+
+Learning Outcome:
+Learned how to locate form fields and type text using Selenium send_keys().
