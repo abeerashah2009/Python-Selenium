@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Delayed element</title></head>
+<body>
+<h1>Waits fixture</h1>
+<div id="box"></div>
+<script>
+setTimeout(function () {
+  var b = document.createElement('button');
+  b.id = 'delayed-btn';
+  b.textContent = 'Ready';
+  b.onclick = function () { b.textContent = 'Clicked!'; };
+  document.getElementById('box').appendChild(b);
+}, 3000);
+</script>
+</body>
+</html>

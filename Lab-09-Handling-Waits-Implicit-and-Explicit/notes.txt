@@ -1,0 +1,21 @@
+LAB 09: HANDLING WAITS
+
+1. Implicit Wait
+- Used driver.implicitly_wait(5).
+- Selenium found the delayed button after approximately 3 seconds.
+
+2. Short Implicit Wait
+- Changed the wait to 1 second.
+- Selenium raised NoSuchElementException.
+- This was the expected result.
+
+3. Explicit Wait
+- Used WebDriverWait(driver, 10).
+- Used EC.element_to_be_clickable().
+- Selenium found the button after approximately 3.4 seconds.
+- Clicked the button successfully.
+- Button text changed from Ready to Clicked!
+
+Conclusion:
+Implicit wait sets a general element-search timeout.
+Explicit wait waits for a specific condition.

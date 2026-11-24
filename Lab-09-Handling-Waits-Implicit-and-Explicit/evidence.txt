@@ -1,0 +1,32 @@
+LAB 09: HANDLING WAITS — EVIDENCE
+
+1. Environment
+- Ubuntu 24.04
+- Python 3
+- Selenium 4.25.0
+- Google Chrome 158.0.8127.88
+
+2. Implicit Wait Test
+- Configured implicit wait: 5 seconds
+- Found button text: Ready
+- Observed wait: approximately 3.0 seconds
+- Result: PASS
+
+3. Short Implicit Wait Test
+- Configured implicit wait: 1 second
+- Exception: NoSuchElementException
+- Expected because the button appeared after 3 seconds
+- Result: PASS (expected failure confirmed)
+
+4. Explicit Wait Test
+- Configured timeout: 10 seconds
+- Condition: element_to_be_clickable
+- Observed wait: approximately 3.4 seconds
+- Before click: Ready
+- After click: Clicked!
+- Result: PASS
+
+5. Cleanup
+- driver.quit() executed
+- No Chrome processes left
+- Result: PASS
