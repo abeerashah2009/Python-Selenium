@@ -1,0 +1,58 @@
+# Lab 11 – Evidence
+
+## 1. HTML Page Verification
+
+File: `links.html`
+
+Created four hyperlinks:
+1. Example
+2. Python
+3. Selenium
+4. Ubuntu
+
+Verified hyperlink count:
+
+```text
+4
+```
+
+## 2. Selenium Execution
+
+File: `links.py`
+
+Verified output:
+
+```text
+Page title: Links Lab
+Example https://example.com/
+Python https://www.python.org/
+Selenium https://www.selenium.dev/
+Ubuntu https://ubuntu.com/
+Total number of links found: 4
+```
+
+## 3. Python Syntax Check
+
+Command:
+
+```bash
+python3 -m py_compile links.py
+```
+
+Result: Passed with no syntax errors.
+
+## 4. Browser Cleanup
+
+Verified result:
+
+```text
+No Chrome processes left
+```
+
+## 5. Final Verification
+
+- HTML page created successfully.
+- Four hyperlinks detected.
+- Selenium execution successful.
+- Python syntax check passed.
+- Browser session closed successfully.
