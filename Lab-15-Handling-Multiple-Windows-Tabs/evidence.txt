@@ -1,0 +1,32 @@
+Lab 15: Handling Multiple Windows/Tabs
+
+Environment:
+Ubuntu 24.04
+Python 3.12.3
+Google Chrome 158.0.8127.88
+Selenium 4.25.0
+
+Practical Tasks:
+1. Opened the main HTML page.
+2. Opened a second tab using target="_blank".
+3. Retrieved window handles using driver.window_handles.
+4. Confirmed that two tabs were open.
+5. Switched between tabs using driver.switch_to.window().
+6. Extracted page titles and URLs.
+7. Verified both page titles using assertions.
+8. Closed the browser using driver.quit().
+
+Verified Output:
+
+Opened: Main Page
+Total open windows/tabs: 2
+Title: Main Page
+URL: http://localhost:8000/index.html
+Title: Second Page
+URL: http://localhost:8000/second.html
+All multiple-window tests passed.
+
+Python syntax: Passed
+Browser cleanup: Passed
+Chrome processes: None running
+Local server: Stopped
