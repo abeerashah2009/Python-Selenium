@@ -1,0 +1,6 @@
+Browser mode: headless
+Page title: Selenium Headless Lab
+Execution time: 1.92 seconds
+Screenshot saved: shot-headless.png
+Chrome processes: 13
+Total Chrome RSS: 1120.22 MB
