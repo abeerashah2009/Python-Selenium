@@ -1,0 +1,30 @@
+Lab 18 - File Upload Simulation
+================================
+
+Environment:
+- Ubuntu 24.04 LTS
+- Python 3.12.3
+- Selenium 4.25.0
+- Flask 3.0.3
+- Mozilla Firefox 161.0
+
+Flask Application:
+- Local upload page: HTTP 200
+- Flask server started successfully.
+
+Selenium Automation:
+- Browser: Firefox
+- Mode: Headless
+- File selected: sample.txt
+- Upload confirmation: Upload OK: sample.txt
+
+Server-side Verification:
+- Uploaded file: uploads/sample.txt
+- File size: 20 bytes
+- File content: hello from selenium
+- POST /upload response: HTTP 200
+
+Validation:
+- app.py syntax: Passed
+- upload_simulation.py syntax: Passed
+- Flask server shutdown: Verified
