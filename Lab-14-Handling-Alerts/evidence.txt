@@ -1,0 +1,31 @@
+LAB 14 - HANDLING ALERTS
+========================
+
+Environment:
+- Ubuntu 24.04
+- Python 3.12
+- Google Chrome 158.0.8127.88
+- Selenium 4.25.0
+
+Website:
+http://the-internet.herokuapp.com/javascript_alerts
+
+Test Results:
+- Page title: The Internet
+- Alert says: I am a JS Alert
+- Alert accepted successfully.
+- Result: You successfully clicked an alert
+- Confirm says: I am a JS Confirm
+- Result: You clicked: Cancel
+- All alert tests passed.
+
+Verification:
+- Python syntax check: Passed
+- Alert text assertion: Passed
+- Accept alert operation: Passed
+- Dismiss confirmation operation: Passed
+- Page result assertions: Passed
+- Browser cleanup: no chrome processes
+
+Main script: alerts.py
+Dependencies: requirements.txt
