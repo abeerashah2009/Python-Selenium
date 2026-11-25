@@ -1,0 +1,33 @@
+Lab 16 – Handling iFrames
+
+Environment:
+Operating System: Ubuntu 24.04.3 LTS
+Python: 3.12.3
+Selenium: 4.25.0
+Google Chrome: 158.0.8127.88
+
+Task 1 – Identify iFrames
+iFrames found: 1
+Index: 0
+ID: exampleIframe
+Name: exampleFrame
+Task 1 passed
+
+Task 2 – Switch to iFrame
+button NOT found in main page
+button found in iframe: Submit
+Task 2 passed
+
+Task 3 – Interact with iFrame
+before: not clicked
+after: clicked
+Task 3 passed
+
+Task 4 – Return to Main Page
+status in iframe: clicked
+main title: Main Page
+button not reachable from main (expected)
+Task 4 passed
+
+Browser cleanup:
+All scripts use driver.quit() in a finally block.
