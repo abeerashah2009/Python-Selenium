@@ -1,0 +1,5 @@
+Loaded: Demo Shop
+Alert text: Searching for Dress
+Success message: Success: results for Dress
+Updated title: Search Results
+All assertions passed.

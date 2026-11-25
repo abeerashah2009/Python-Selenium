@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Shop</title>
+</head>
+<body>
+    <h1>Demo Shop</h1>
+
+    <form id="search-form" onsubmit="return doSearch(event)">
+        <input type="text" name="search_query" placeholder="Search">
+        <button type="submit" name="submit_search">Search</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script>
+        function doSearch(e) {
+            e.preventDefault();
+
+            var q = document.getElementsByName('search_query')[0].value;
+
+            alert('Searching for ' + q);
+
+            document.title = 'Search Results';
+
+            var d = document.createElement('div');
+            d.className = 'alert-success';
+            d.textContent = 'Success: results for ' + q;
+
+            document.getElementById('result').appendChild(d);
+            return false;
+        }
+    </script>
+</body>
+</html>
